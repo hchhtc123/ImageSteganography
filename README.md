@@ -5,8 +5,6 @@
   “秘隐”-图像隐写系统，主要基于传统的隐写算法完成了文本信息的隐藏与提取、单张图片的隐藏与提取，并基于PyQt5完成了项目的可视化界面演示，最后通过pyinstaller完成项目打包从而免去复杂环境配置操作，用于信息的安全保护。
   
 ## 二.项目演示：
-
-  <video src='https://www.bilibili.com/video/BV1W341127wG?share_source=copy_web' width=180/>
   
   演示视频地址： https://www.bilibili.com/video/BV1W341127wG?share_source=copy_web
  
