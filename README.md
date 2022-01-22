@@ -7,12 +7,14 @@
 ## 二.项目演示：
   
   演示视频地址： https://www.bilibili.com/video/BV1W341127wG?share_source=copy_web
+  
+  AI Studio项目地址：https://aistudio.baidu.com/aistudio/projectdetail/2391070
  
 ## 三.项目意义：
 
   图像隐写术作为信息安全的一个重要研究领域，即在图像中隐藏秘密信息包括文本及图片等。区别于密码学加密技术，在进行信息的私密传输时，图像隐写术通过公开图像的隐蔽性掩盖了秘密通信的存在性，可以使信息得到较好的安全保护，在保密传输领域等信息安全领域具有重要实际意义。
 
-  ![image](https://github.com/hchhtc123/ImageSteganography/blob/main/images/steganography.jpg)
+![image](https://github.com/hchhtc123/ImageSteganography/blob/main/images/steganography.jpg)
 
 ## 四.项目运行说明：
 
@@ -26,16 +28,15 @@
 
   基于GAN生成式对抗网络的思想进行图像隐写模型的构建，其网络框架主要由隐写编码器、提取解码器和隐写评估器三部分组成。隐写编码器将要隐藏的私密信息嵌入载体图像并生成含密图像，而提取解码   器从含密图像中恢复出嵌入的私密信息，隐写评估器评估生成的含密图像较载体图像的质量，给出评分。最后通过三者的对抗训练过程同时优化编码器、解码器和评估器，通过多轮迭代让模型自主学习在自   然图像上嵌入及提取信息算法。
   
-  ![image](https://github.com/hchhtc123/ImageSteganography/blob/main/images/GAN-model.png)
+ ![image](https://github.com/hchhtc123/ImageSteganography/blob/main/images/GAN-model.png)
   
-  参考学习项目：
+参考学习项目：
 
-  文本大容量隐写：https://github.com/DAI-Lab/SteganoGAN
+Hidden水印：https://github.com/ando-khachatryan/HiDDeN
 
-  多图隐写：https://github.com/JapsimarSinghWahi/DeepSteganography
+文本大容量隐写：https://github.com/DAI-Lab/SteganoGAN
 
-  Hidden水印：https://github.com/ando-khachatryan/HiDDeN
-  
+多图隐写：https://github.com/JapsimarSinghWahi/DeepSteganography
 
 
 
